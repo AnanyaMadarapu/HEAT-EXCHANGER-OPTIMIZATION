@@ -62,3 +62,13 @@ Effect of flow rate on heat exchanger performance
 Use of LMTD in thermal analysis
 Identification of optimal operating conditions
 Impact of flow configuration on efficiency
+
+## Results
+
+### Heat Transfer vs Flow Rate
+![Heat Transfer](heat_transfer_flow_rate_plot.png)
+
+### Flow Configuration Comparison
+![Flow Comparison](flow_config_plot.png)
+
+
