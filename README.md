@@ -29,16 +29,27 @@ This loop generates heat transfer values corresponding to different flow rates.
 📈 3. Optimization
 The code identifies the flow rate that produces maximum heat transfer using np.argmax().
 This represents the optimal operating condition for the exchanger.
+
+
 📊 4. Plot 1: Heat Transfer vs Flow Rate
 Shows how heat transfer varies with flow rate.
 Highlights the region where performance improves and where gains begin to level off.
+
+
 🔁 5. Flow Configuration Comparison
 A second dataset is generated to represent counter-current flow, assumed to have higher efficiency.
 Both co-current and counter-current cases are plotted together.
+
+
 📊 6. Plot 2: Configuration Comparison
+
 Compares heat transfer for both flow configurations.
 Demonstrates the superior performance of counter-current flow due to better temperature driving force.
+
+
 🧠 Key Assumptions
+
+
 Constant heat transfer coefficient (U)
 Simplified estimation of cold outlet temperature
 Idealized comparison between flow configurations
@@ -46,6 +57,7 @@ Idealized comparison between flow configurations
 These assumptions simplify the model while preserving key thermal behavior.
 
 🎯 What the Code Demonstrates
+
 Effect of flow rate on heat exchanger performance
 Use of LMTD in thermal analysis
 Identification of optimal operating conditions
